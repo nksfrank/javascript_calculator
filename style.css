@@ -1,0 +1,41 @@
+html, body {
+	width: 100%;
+}
+div.calc {
+	display: inline-block;
+	text-align: center;
+
+	height: 1.5em;
+	width: 1.5em;
+
+	margin: 0.2em 0.2em 0.2em 0.2em;
+	background: #F6F6F6;
+
+	cursor: default;
+}
+div#result {
+	display: inline-block;
+	text-align: right;
+	overflow: hidden;
+
+	height: 1.5em;
+	width: 7.4em;
+
+	margin: 0.2em 0.2em 0.2em 0.2em;
+	padding: 0 0.6em 0 0;
+	background: #FFF;
+}
+div#container {
+	position: relative;
+	padding: 0.3em 0 0.3em 0.3em;
+	margin: 0 auto;
+	width:138px;
+
+	background: #66A3D2;
+}
+div#wrapper {
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
